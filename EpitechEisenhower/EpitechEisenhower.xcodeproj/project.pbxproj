@@ -13,6 +13,7 @@
 		9FEEDDB5206444FE00F0DDAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FEEDDB4206444FE00F0DDAE /* Assets.xcassets */; };
 		9FEEDDB8206444FF00F0DDAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FEEDDB6206444FF00F0DDAE /* LaunchScreen.storyboard */; };
 		9FEEDDC3206444FF00F0DDAE /* EpitechEisenhowerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEEDDC2206444FF00F0DDAE /* EpitechEisenhowerTests.swift */; };
+		E3AC27F7206BA7740038D30F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AC27F6206BA7740038D30F /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		9FEEDDBE206444FF00F0DDAE /* EpitechEisenhowerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EpitechEisenhowerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FEEDDC2206444FF00F0DDAE /* EpitechEisenhowerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpitechEisenhowerTests.swift; sourceTree = "<group>"; };
 		9FEEDDC4206444FF00F0DDAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3AC27F6206BA7740038D30F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				9FEEDDAD206444FE00F0DDAE /* AppDelegate.swift */,
 				9FEEDDAF206444FE00F0DDAE /* ViewController.swift */,
 				9FEEDDB1206444FE00F0DDAE /* Main.storyboard */,
+				E3AC27F6206BA7740038D30F /* LoginViewController.swift */,
 				9FEEDDB4206444FE00F0DDAE /* Assets.xcassets */,
 				9FEEDDB6206444FF00F0DDAE /* LaunchScreen.storyboard */,
 				9FEEDDB9206444FF00F0DDAE /* Info.plist */,
@@ -199,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3AC27F7206BA7740038D30F /* LoginViewController.swift in Sources */,
 				9FEEDDB0206444FE00F0DDAE /* ViewController.swift in Sources */,
 				9FEEDDAE206444FE00F0DDAE /* AppDelegate.swift in Sources */,
 			);
