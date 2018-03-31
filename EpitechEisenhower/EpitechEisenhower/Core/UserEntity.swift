@@ -11,7 +11,8 @@ import Foundation
 class UserEntity: Entity {
     var email: String
     
-    init(email: String) {
+    init(id: Int, createdOn: Date, modifiedOn: Date, email: String) {
         self.email = email
+        super.init(id: id, createdOn: createdOn, modifiedOn: modifiedOn)
     }
 }

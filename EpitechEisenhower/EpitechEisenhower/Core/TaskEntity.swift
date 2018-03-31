@@ -14,10 +14,11 @@ class TaskEntity: Entity {
     var owner: UserEntity
     var sharedWith: [UserEntity]?
     
-    init(title: String, description: String, owner: UserEntity) {
+    init(id: Int, createdOn: Date, modifiedOn: Date, title: String, description: String, owner: UserEntity) {
         self.title = title
         self.description = description
         self.owner = owner
         self.sharedWith = nil
+        super.init(id: id, createdOn: createdOn, modifiedOn: modifiedOn)
     }
 }
