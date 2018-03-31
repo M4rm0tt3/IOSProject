@@ -30,7 +30,8 @@ class SignInViewController: UIViewController {
                                 switch result {
                                 case .success :
                                     let homeVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "homeVC")
-                                    self?.navigationController?.pushViewController(homeVC, animated: true)
+                                    let appDelegate = UIApplication.shared.delegate as! AppDelegate
+                                    appDelegate.window?.rootViewController = homeVC
                                 case .failure(let error):
                                     print(error)
                                 }
