@@ -13,6 +13,9 @@
 		9F061C93206C209600F490EB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F061C92206C209600F490EB /* GoogleService-Info.plist */; };
 		9F061C95206F88B700F490EB /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F061C94206F88B700F490EB /* CreateAccountViewController.swift */; };
 		9F061C97206F929200F490EB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F061C96206F929200F490EB /* HomeViewController.swift */; };
+		9F061C9A206F96B200F490EB /* TaskEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F061C99206F96B200F490EB /* TaskEntity.swift */; };
+		9F061C9C206F96DA00F490EB /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F061C9B206F96DA00F490EB /* Entity.swift */; };
+		9F061C9E206F986500F490EB /* UserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F061C9D206F986500F490EB /* UserEntity.swift */; };
 		9FEEDDAE206444FE00F0DDAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEEDDAD206444FE00F0DDAE /* AppDelegate.swift */; };
 		9FEEDDB0206444FE00F0DDAE /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEEDDAF206444FE00F0DDAE /* SignInViewController.swift */; };
 		9FEEDDB3206444FE00F0DDAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FEEDDB1206444FE00F0DDAE /* Main.storyboard */; };
@@ -41,6 +44,9 @@
 		9F061C92206C209600F490EB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9F061C94206F88B700F490EB /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		9F061C96206F929200F490EB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9F061C99206F96B200F490EB /* TaskEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEntity.swift; sourceTree = "<group>"; };
+		9F061C9B206F96DA00F490EB /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		9F061C9D206F986500F490EB /* UserEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEntity.swift; sourceTree = "<group>"; };
 		9FEEDDAA206444FE00F0DDAE /* EpitechEisenhower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EpitechEisenhower.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FEEDDAD206444FE00F0DDAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FEEDDAF206444FE00F0DDAE /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
@@ -117,6 +123,16 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		9F061C98206F969E00F490EB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9F061C99206F96B200F490EB /* TaskEntity.swift */,
+				9F061C9B206F96DA00F490EB /* Entity.swift */,
+				9F061C9D206F986500F490EB /* UserEntity.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
 		9FEEDDA1206444FD00F0DDAE = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +156,7 @@
 		9FEEDDAC206444FE00F0DDAE /* EpitechEisenhower */ = {
 			isa = PBXGroup;
 			children = (
+				9F061C98206F969E00F490EB /* Core */,
 				9F061C8B206BF9D100F490EB /* Controller */,
 				9F061C8A206BF9C700F490EB /* Helper */,
 				9F061C89206BF9BD00F490EB /* Auth */,
@@ -336,7 +353,10 @@
 				9F061C95206F88B700F490EB /* CreateAccountViewController.swift in Sources */,
 				9FEEDDB0206444FE00F0DDAE /* SignInViewController.swift in Sources */,
 				9F061C91206C164E00F490EB /* StringExtension.swift in Sources */,
+				9F061C9E206F986500F490EB /* UserEntity.swift in Sources */,
+				9F061C9A206F96B200F490EB /* TaskEntity.swift in Sources */,
 				9FEEDDAE206444FE00F0DDAE /* AppDelegate.swift in Sources */,
+				9F061C9C206F96DA00F490EB /* Entity.swift in Sources */,
 				9F061C8D206BFB7700F490EB /* EpitechEisenhowerAuthProtocol.swift in Sources */,
 				9F061C97206F929200F490EB /* HomeViewController.swift in Sources */,
 				9F061C8F206BFBB400F490EB /* EpitechEisenhowerAuth.swift in Sources */,
