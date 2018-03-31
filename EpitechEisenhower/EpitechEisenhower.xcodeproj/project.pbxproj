@@ -10,14 +10,16 @@
 		9F061C8D206BFB7700F490EB /* EpitechEisenhowerAuthProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F061C8C206BFB7700F490EB /* EpitechEisenhowerAuthProtocol.swift */; };
 		9F061C8F206BFBB400F490EB /* EpitechEisenhowerAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F061C8E206BFBB400F490EB /* EpitechEisenhowerAuth.swift */; };
 		9F061C91206C164E00F490EB /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F061C90206C164E00F490EB /* StringExtension.swift */; };
+		9F061C93206C209600F490EB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F061C92206C209600F490EB /* GoogleService-Info.plist */; };
+		9F061C95206F88B700F490EB /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F061C94206F88B700F490EB /* CreateAccountViewController.swift */; };
+		9F061C97206F929200F490EB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F061C96206F929200F490EB /* HomeViewController.swift */; };
 		9FEEDDAE206444FE00F0DDAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEEDDAD206444FE00F0DDAE /* AppDelegate.swift */; };
-		9FEEDDB0206444FE00F0DDAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEEDDAF206444FE00F0DDAE /* ViewController.swift */; };
+		9FEEDDB0206444FE00F0DDAE /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEEDDAF206444FE00F0DDAE /* SignInViewController.swift */; };
 		9FEEDDB3206444FE00F0DDAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FEEDDB1206444FE00F0DDAE /* Main.storyboard */; };
 		9FEEDDB5206444FE00F0DDAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FEEDDB4206444FE00F0DDAE /* Assets.xcassets */; };
 		9FEEDDB8206444FF00F0DDAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FEEDDB6206444FF00F0DDAE /* LaunchScreen.storyboard */; };
 		9FEEDDC3206444FF00F0DDAE /* EpitechEisenhowerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEEDDC2206444FF00F0DDAE /* EpitechEisenhowerTests.swift */; };
 		D00D0BA86A2897AEFF2BB84A /* Pods_EpitechEisenhower.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A88F3033DDB0B0E35390C5B /* Pods_EpitechEisenhower.framework */; };
-		E3AC27F7206BA7740038D30F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AC27F6206BA7740038D30F /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +38,12 @@
 		9F061C8C206BFB7700F490EB /* EpitechEisenhowerAuthProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpitechEisenhowerAuthProtocol.swift; sourceTree = "<group>"; };
 		9F061C8E206BFBB400F490EB /* EpitechEisenhowerAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpitechEisenhowerAuth.swift; sourceTree = "<group>"; };
 		9F061C90206C164E00F490EB /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		9F061C92206C209600F490EB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9F061C94206F88B700F490EB /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		9F061C96206F929200F490EB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		9FEEDDAA206444FE00F0DDAE /* EpitechEisenhower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EpitechEisenhower.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FEEDDAD206444FE00F0DDAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9FEEDDAF206444FE00F0DDAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9FEEDDAF206444FE00F0DDAE /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		9FEEDDB2206444FE00F0DDAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9FEEDDB4206444FE00F0DDAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FEEDDB7206444FF00F0DDAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,7 +52,6 @@
 		9FEEDDC2206444FF00F0DDAE /* EpitechEisenhowerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpitechEisenhowerTests.swift; sourceTree = "<group>"; };
 		9FEEDDC4206444FF00F0DDAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B17F50435E73C81517598F48 /* Pods-EpitechEisenhower.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpitechEisenhower.release.xcconfig"; path = "Pods/Target Support Files/Pods-EpitechEisenhower/Pods-EpitechEisenhower.release.xcconfig"; sourceTree = "<group>"; };
-		E3AC27F6206BA7740038D30F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +110,9 @@
 		9F061C8B206BF9D100F490EB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				9FEEDDAF206444FE00F0DDAE /* ViewController.swift */,
-				E3AC27F6206BA7740038D30F /* LoginViewController.swift */,
+				9FEEDDAF206444FE00F0DDAE /* SignInViewController.swift */,
+				9F061C94206F88B700F490EB /* CreateAccountViewController.swift */,
+				9F061C96206F929200F490EB /* HomeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -143,6 +148,7 @@
 				9FEEDDB4206444FE00F0DDAE /* Assets.xcassets */,
 				9FEEDDB6206444FF00F0DDAE /* LaunchScreen.storyboard */,
 				9FEEDDB9206444FF00F0DDAE /* Info.plist */,
+				9F061C92206C209600F490EB /* GoogleService-Info.plist */,
 			);
 			path = EpitechEisenhower;
 			sourceTree = "<group>";
@@ -243,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FEEDDB8206444FF00F0DDAE /* LaunchScreen.storyboard in Resources */,
+				9F061C93206C209600F490EB /* GoogleService-Info.plist in Resources */,
 				9FEEDDB5206444FE00F0DDAE /* Assets.xcassets in Resources */,
 				9FEEDDB3206444FE00F0DDAE /* Main.storyboard in Resources */,
 			);
@@ -326,11 +333,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3AC27F7206BA7740038D30F /* LoginViewController.swift in Sources */,
-				9FEEDDB0206444FE00F0DDAE /* ViewController.swift in Sources */,
+				9F061C95206F88B700F490EB /* CreateAccountViewController.swift in Sources */,
+				9FEEDDB0206444FE00F0DDAE /* SignInViewController.swift in Sources */,
 				9F061C91206C164E00F490EB /* StringExtension.swift in Sources */,
 				9FEEDDAE206444FE00F0DDAE /* AppDelegate.swift in Sources */,
 				9F061C8D206BFB7700F490EB /* EpitechEisenhowerAuthProtocol.swift in Sources */,
+				9F061C97206F929200F490EB /* HomeViewController.swift in Sources */,
 				9F061C8F206BFBB400F490EB /* EpitechEisenhowerAuth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
