@@ -16,6 +16,9 @@
 		9F061C9A206F96B200F490EB /* TaskEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F061C99206F96B200F490EB /* TaskEntity.swift */; };
 		9F061C9C206F96DA00F490EB /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F061C9B206F96DA00F490EB /* Entity.swift */; };
 		9F061C9E206F986500F490EB /* UserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F061C9D206F986500F490EB /* UserEntity.swift */; };
+		9F061CA22070CD9700F490EB /* TaskDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F061CA12070CD9700F490EB /* TaskDetailViewController.swift */; };
+		9F061CA52070E02D00F490EB /* AddTaskCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F061CA42070E02D00F490EB /* AddTaskCollectionViewCell.swift */; };
+		9F061CA72070E05200F490EB /* TaskDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F061CA62070E05200F490EB /* TaskDetailCollectionViewCell.swift */; };
 		9FEEDDAE206444FE00F0DDAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEEDDAD206444FE00F0DDAE /* AppDelegate.swift */; };
 		9FEEDDB0206444FE00F0DDAE /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEEDDAF206444FE00F0DDAE /* SignInViewController.swift */; };
 		9FEEDDB3206444FE00F0DDAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FEEDDB1206444FE00F0DDAE /* Main.storyboard */; };
@@ -83,6 +86,9 @@
 		9F061C99206F96B200F490EB /* TaskEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEntity.swift; sourceTree = "<group>"; };
 		9F061C9B206F96DA00F490EB /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
 		9F061C9D206F986500F490EB /* UserEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEntity.swift; sourceTree = "<group>"; };
+		9F061CA12070CD9700F490EB /* TaskDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailViewController.swift; sourceTree = "<group>"; };
+		9F061CA42070E02D00F490EB /* AddTaskCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskCollectionViewCell.swift; sourceTree = "<group>"; };
+		9F061CA62070E05200F490EB /* TaskDetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailCollectionViewCell.swift; sourceTree = "<group>"; };
 		9FEEDDAA206444FE00F0DDAE /* EpitechEisenhower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EpitechEisenhower.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FEEDDAD206444FE00F0DDAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FEEDDAF206444FE00F0DDAE /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
@@ -188,11 +194,12 @@
 		9F061C8B206BF9D100F490EB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				9F061CA32070E01400F490EB /* Home */,
 				9FEEDDAF206444FE00F0DDAE /* SignInViewController.swift */,
 				9F061C94206F88B700F490EB /* CreateAccountViewController.swift */,
-				9F061C96206F929200F490EB /* HomeViewController.swift */,
 				E31D287E20700B3C00C2C70F /* CustomNavBarController.swift */,
 				E31D2885207028AB00C2C70F /* ProfileViewController.swift */,
+				9F061CA12070CD9700F490EB /* TaskDetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -205,6 +212,16 @@
 				9F061C9D206F986500F490EB /* UserEntity.swift */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		9F061CA32070E01400F490EB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9F061C96206F929200F490EB /* HomeViewController.swift */,
+				9F061CA42070E02D00F490EB /* AddTaskCollectionViewCell.swift */,
+				9F061CA62070E05200F490EB /* TaskDetailCollectionViewCell.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		9FEEDDA1206444FD00F0DDAE = {
@@ -580,13 +597,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F061CA72070E05200F490EB /* TaskDetailCollectionViewCell.swift in Sources */,
 				9F061C95206F88B700F490EB /* CreateAccountViewController.swift in Sources */,
 				9FEEDDB0206444FE00F0DDAE /* SignInViewController.swift in Sources */,
 				9F061C91206C164E00F490EB /* StringExtension.swift in Sources */,
 				9F061C9E206F986500F490EB /* UserEntity.swift in Sources */,
 				9F061C9A206F96B200F490EB /* TaskEntity.swift in Sources */,
+				9F061CA52070E02D00F490EB /* AddTaskCollectionViewCell.swift in Sources */,
 				9FEEDDAE206444FE00F0DDAE /* AppDelegate.swift in Sources */,
 				E31D2886207028AB00C2C70F /* ProfileViewController.swift in Sources */,
+				9F061CA22070CD9700F490EB /* TaskDetailViewController.swift in Sources */,
 				9F061C9C206F96DA00F490EB /* Entity.swift in Sources */,
 				9F061C8D206BFB7700F490EB /* EpitechEisenhowerAuthProtocol.swift in Sources */,
 				9F061C97206F929200F490EB /* HomeViewController.swift in Sources */,

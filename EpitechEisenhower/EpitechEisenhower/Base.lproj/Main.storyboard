@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -214,45 +215,105 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Jki-8B-5dT">
-                                <rect key="frame" x="16" y="20" width="340" height="560"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Jki-8B-5dT">
+                                <rect key="frame" x="15" y="15" width="345" height="573"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="UJH-bj-F75">
-                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="itemSize" width="165" height="80"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AddTask" id="F7Q-7h-esJ">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AddNewTask" id="F7Q-7h-esJ" customClass="AddTaskCollectionViewCell" customModule="EpitechEisenhower" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="165" height="80"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                             <rect key="frame" x="0.0" y="0.0" width="165" height="80"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AddTask.png" translatesAutoresizingMaskIntoConstraints="NO" id="LLb-S9-A7K">
-                                                    <rect key="frame" x="58" y="18" width="49" height="44"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AddTask.png" translatesAutoresizingMaskIntoConstraints="NO" id="LLb-S9-A7K">
+                                                    <rect key="frame" x="59" y="15.5" width="49" height="49"/>
                                                 </imageView>
                                             </subviews>
                                         </view>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="LLb-S9-A7K" firstAttribute="centerX" secondItem="F7Q-7h-esJ" secondAttribute="centerX" id="Qen-AS-aXo"/>
+                                            <constraint firstItem="LLb-S9-A7K" firstAttribute="centerY" secondItem="F7Q-7h-esJ" secondAttribute="centerY" id="VOf-Va-8tr"/>
+                                        </constraints>
                                         <size key="customSize" width="165" height="80"/>
                                     </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="vAJ-vU-bwB">
-                                        <rect key="frame" x="175" y="0.0" width="165" height="80"/>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Task" id="vAJ-vU-bwB" customClass="TaskDetailCollectionViewCell" customModule="EpitechEisenhower" customModuleProvider="target">
+                                        <rect key="frame" x="180" y="0.0" width="165" height="80"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                             <rect key="frame" x="0.0" y="0.0" width="165" height="80"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ptL-gV-CWf">
+                                                    <rect key="frame" x="13" y="8" width="117" height="14.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xuy-ph-dom">
+                                                    <rect key="frame" x="13" y="27.5" width="117" height="44.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ImportantIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="Vcx-pd-SO3">
+                                                    <rect key="frame" x="135" y="15" width="20" height="20"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="20" id="IAB-iY-MAu"/>
+                                                        <constraint firstAttribute="width" constant="20" id="kIi-WE-1Ln"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="UrgentIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="3zc-wk-hnq">
+                                                    <rect key="frame" x="135" y="45" width="20" height="20"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="20" id="AJR-ZU-L5b"/>
+                                                        <constraint firstAttribute="height" constant="20" id="SZy-MX-Bzb"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
                                         </view>
+                                        <constraints>
+                                            <constraint firstItem="Vcx-pd-SO3" firstAttribute="top" secondItem="vAJ-vU-bwB" secondAttribute="top" constant="15" id="5uo-H1-Nzs"/>
+                                            <constraint firstItem="Vcx-pd-SO3" firstAttribute="leading" secondItem="ptL-gV-CWf" secondAttribute="trailing" constant="5" id="648-6m-n82"/>
+                                            <constraint firstItem="Xuy-ph-dom" firstAttribute="top" secondItem="ptL-gV-CWf" secondAttribute="bottom" constant="5" id="DaS-YQ-Mha"/>
+                                            <constraint firstItem="3zc-wk-hnq" firstAttribute="leading" secondItem="Xuy-ph-dom" secondAttribute="trailing" constant="5" id="Ia8-iP-uGf"/>
+                                            <constraint firstItem="Xuy-ph-dom" firstAttribute="leading" secondItem="vAJ-vU-bwB" secondAttribute="leadingMargin" constant="5" id="NZs-GG-emu"/>
+                                            <constraint firstAttribute="trailing" secondItem="Vcx-pd-SO3" secondAttribute="trailing" constant="10" id="OaU-FC-aKL"/>
+                                            <constraint firstAttribute="bottomMargin" secondItem="Xuy-ph-dom" secondAttribute="bottom" id="P2k-ku-ABV"/>
+                                            <constraint firstItem="3zc-wk-hnq" firstAttribute="top" secondItem="Vcx-pd-SO3" secondAttribute="bottom" constant="10" id="Xnc-hP-wy1"/>
+                                            <constraint firstAttribute="trailing" secondItem="3zc-wk-hnq" secondAttribute="trailing" constant="10" id="esX-r3-zBR"/>
+                                            <constraint firstItem="ptL-gV-CWf" firstAttribute="leading" secondItem="vAJ-vU-bwB" secondAttribute="leadingMargin" constant="5" id="v3L-4i-r5Y"/>
+                                            <constraint firstAttribute="bottom" secondItem="3zc-wk-hnq" secondAttribute="bottom" constant="15" id="wB0-at-bKj"/>
+                                            <constraint firstItem="ptL-gV-CWf" firstAttribute="top" secondItem="vAJ-vU-bwB" secondAttribute="topMargin" id="zIn-yP-2Ka"/>
+                                        </constraints>
                                         <size key="customSize" width="165" height="80"/>
+                                        <connections>
+                                            <outlet property="dateCellText" destination="ptL-gV-CWf" id="HhX-FW-Q1q"/>
+                                            <outlet property="titleCellText" destination="Xuy-ph-dom" id="CJf-6O-jTB"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="GAo-Gn-PJl" id="5OL-OC-ycQ"/>
+                                    <outlet property="delegate" destination="GAo-Gn-PJl" id="sNC-u0-D60"/>
+                                </connections>
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" red="0.26198872919999999" green="0.54028701779999999" blue="0.62838947769999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Jki-8B-5dT" firstAttribute="top" secondItem="69J-OD-DNV" secondAttribute="top" constant="15" id="3Qb-hX-5cn"/>
+                            <constraint firstItem="69J-OD-DNV" firstAttribute="trailing" secondItem="Jki-8B-5dT" secondAttribute="trailing" constant="15" id="MMO-nF-AG2"/>
+                            <constraint firstItem="69J-OD-DNV" firstAttribute="bottom" secondItem="Jki-8B-5dT" secondAttribute="bottom" constant="15" id="XHW-uc-rAS"/>
+                            <constraint firstItem="Jki-8B-5dT" firstAttribute="centerY" secondItem="fut-Xm-Km1" secondAttribute="centerY" id="aZf-P2-xGJ"/>
+                            <constraint firstItem="Jki-8B-5dT" firstAttribute="leading" secondItem="69J-OD-DNV" secondAttribute="leading" constant="15" id="sY8-Af-U10"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="69J-OD-DNV"/>
                     </view>
                     <navigationItem key="navigationItem" title="Home" id="EBY-5Y-LJB">
@@ -263,6 +324,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="collection" destination="Jki-8B-5dT" id="T29-j5-FMl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zic-qe-Zme" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -271,7 +335,7 @@
         <!--Task Details-->
         <scene sceneID="tBp-yA-OJ8">
             <objects>
-                <viewController title="Task Details" id="7zI-BN-i19" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="detailVC" title="Task Details" id="7zI-BN-i19" customClass="TaskDetailViewController" customModule="EpitechEisenhower" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HnM-C2-egv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -371,6 +435,9 @@
                     </view>
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="deleteTaskButton" destination="t64-Z4-uZh" id="zmh-ts-dgH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lTg-2Q-kLS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -451,6 +518,7 @@
     <resources>
         <image name="AddShare.png" width="59" height="59"/>
         <image name="AddTask.png" width="49" height="49"/>
+        <image name="ImportantIcon.png" width="36" height="37"/>
         <image name="ProfileIcon.png" width="31" height="31"/>
         <image name="UrgentIcon.png" width="21" height="19"/>
         <image name="important.png" width="36" height="37"/>
