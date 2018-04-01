@@ -8,11 +8,19 @@
 
 import Foundation
 
+enum TaskType: String {
+    case None
+    case Important
+    case Urgent
+    case Both
+}
+
 class TaskEntity: Entity {
     var title: String
     var description: String
     var owner: UserEntity
     var sharedWith: [UserEntity]?
+    var priority: TaskType = .None
     
     init(id: Int, createdOn: Date, modifiedOn: Date, title: String, description: String, owner: UserEntity) {
         self.title = title

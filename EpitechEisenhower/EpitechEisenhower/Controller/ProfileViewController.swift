@@ -13,6 +13,7 @@ class ProfileViewController : UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         ProfilePicture.setRounded()
+        view.backgroundColor = .lightBlueColor
     }
 }
 

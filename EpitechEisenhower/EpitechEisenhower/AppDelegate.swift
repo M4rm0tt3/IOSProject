@@ -22,6 +22,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             let signInViewController = rootViewController.topViewController as? SignInViewController {
             signInViewController.authImp = EpitechEisenhowerAuth()
         }
+        UINavigationBar.appearance().backgroundColor = .lightBlueColor
+        UINavigationBar.appearance().tintColor = UIColor(rgb: 0xFFFFFF)
         return true
     }
 

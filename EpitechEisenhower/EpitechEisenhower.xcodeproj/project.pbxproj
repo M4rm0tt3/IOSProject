@@ -19,6 +19,10 @@
 		9F061CA22070CD9700F490EB /* TaskDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F061CA12070CD9700F490EB /* TaskDetailViewController.swift */; };
 		9F061CA52070E02D00F490EB /* AddTaskCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F061CA42070E02D00F490EB /* AddTaskCollectionViewCell.swift */; };
 		9F061CA72070E05200F490EB /* TaskDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F061CA62070E05200F490EB /* TaskDetailCollectionViewCell.swift */; };
+		9F061CA9207137EA00F490EB /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F061CA8207137EA00F490EB /* UIColorExtension.swift */; };
+		9F061CAC2071429D00F490EB /* CustomNavigationBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F061CAB2071429D00F490EB /* CustomNavigationBarController.swift */; };
+		9F061CAE20714C1F00F490EB /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F061CAD20714C1E00F490EB /* UIButton.swift */; };
+		9F061CB020714CB800F490EB /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F061CAF20714CB800F490EB /* UIViewExtension.swift */; };
 		9FEEDDAE206444FE00F0DDAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEEDDAD206444FE00F0DDAE /* AppDelegate.swift */; };
 		9FEEDDB0206444FE00F0DDAE /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEEDDAF206444FE00F0DDAE /* SignInViewController.swift */; };
 		9FEEDDB3206444FE00F0DDAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FEEDDB1206444FE00F0DDAE /* Main.storyboard */; };
@@ -59,7 +63,6 @@
 		E31D287B206FF94000C2C70F /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = E31D2859206FF93F00C2C70F /* Contents.json */; };
 		E31D287C206FF94000C2C70F /* GoogleButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E31D285A206FF93F00C2C70F /* GoogleButton.png */; };
 		E31D287D206FF94000C2C70F /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = E31D285C206FF93F00C2C70F /* Contents.json */; };
-		E31D287F20700B3C00C2C70F /* CustomNavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31D287E20700B3C00C2C70F /* CustomNavBarController.swift */; };
 		E31D2886207028AB00C2C70F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31D2885207028AB00C2C70F /* ProfileViewController.swift */; };
 		E31D288820702AE200C2C70F /* pandaroux.png in Resources */ = {isa = PBXBuildFile; fileRef = E31D288720702AE200C2C70F /* pandaroux.png */; };
 /* End PBXBuildFile section */
@@ -89,6 +92,10 @@
 		9F061CA12070CD9700F490EB /* TaskDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailViewController.swift; sourceTree = "<group>"; };
 		9F061CA42070E02D00F490EB /* AddTaskCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskCollectionViewCell.swift; sourceTree = "<group>"; };
 		9F061CA62070E05200F490EB /* TaskDetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailCollectionViewCell.swift; sourceTree = "<group>"; };
+		9F061CA8207137EA00F490EB /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		9F061CAB2071429D00F490EB /* CustomNavigationBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBarController.swift; sourceTree = "<group>"; };
+		9F061CAD20714C1E00F490EB /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		9F061CAF20714CB800F490EB /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		9FEEDDAA206444FE00F0DDAE /* EpitechEisenhower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EpitechEisenhower.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FEEDDAD206444FE00F0DDAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FEEDDAF206444FE00F0DDAE /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
@@ -133,7 +140,6 @@
 		E31D2859206FF93F00C2C70F /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		E31D285A206FF93F00C2C70F /* GoogleButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GoogleButton.png; sourceTree = "<group>"; };
 		E31D285C206FF93F00C2C70F /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
-		E31D287E20700B3C00C2C70F /* CustomNavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarController.swift; sourceTree = "<group>"; };
 		E31D2885207028AB00C2C70F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		E31D288720702AE200C2C70F /* pandaroux.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pandaroux.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -187,6 +193,9 @@
 			isa = PBXGroup;
 			children = (
 				9F061C90206C164E00F490EB /* StringExtension.swift */,
+				9F061CA8207137EA00F490EB /* UIColorExtension.swift */,
+				9F061CAD20714C1E00F490EB /* UIButton.swift */,
+				9F061CAF20714CB800F490EB /* UIViewExtension.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -197,9 +206,9 @@
 				9F061CA32070E01400F490EB /* Home */,
 				9FEEDDAF206444FE00F0DDAE /* SignInViewController.swift */,
 				9F061C94206F88B700F490EB /* CreateAccountViewController.swift */,
-				E31D287E20700B3C00C2C70F /* CustomNavBarController.swift */,
 				E31D2885207028AB00C2C70F /* ProfileViewController.swift */,
 				9F061CA12070CD9700F490EB /* TaskDetailViewController.swift */,
+				9F061CAB2071429D00F490EB /* CustomNavigationBarController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -597,11 +606,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F061CAE20714C1F00F490EB /* UIButton.swift in Sources */,
 				9F061CA72070E05200F490EB /* TaskDetailCollectionViewCell.swift in Sources */,
 				9F061C95206F88B700F490EB /* CreateAccountViewController.swift in Sources */,
 				9FEEDDB0206444FE00F0DDAE /* SignInViewController.swift in Sources */,
 				9F061C91206C164E00F490EB /* StringExtension.swift in Sources */,
 				9F061C9E206F986500F490EB /* UserEntity.swift in Sources */,
+				9F061CA9207137EA00F490EB /* UIColorExtension.swift in Sources */,
 				9F061C9A206F96B200F490EB /* TaskEntity.swift in Sources */,
 				9F061CA52070E02D00F490EB /* AddTaskCollectionViewCell.swift in Sources */,
 				9FEEDDAE206444FE00F0DDAE /* AppDelegate.swift in Sources */,
@@ -609,9 +620,10 @@
 				9F061CA22070CD9700F490EB /* TaskDetailViewController.swift in Sources */,
 				9F061C9C206F96DA00F490EB /* Entity.swift in Sources */,
 				9F061C8D206BFB7700F490EB /* EpitechEisenhowerAuthProtocol.swift in Sources */,
+				9F061CB020714CB800F490EB /* UIViewExtension.swift in Sources */,
 				9F061C97206F929200F490EB /* HomeViewController.swift in Sources */,
 				9F061C8F206BFBB400F490EB /* EpitechEisenhowerAuth.swift in Sources */,
-				E31D287F20700B3C00C2C70F /* CustomNavBarController.swift in Sources */,
+				9F061CAC2071429D00F490EB /* CustomNavigationBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

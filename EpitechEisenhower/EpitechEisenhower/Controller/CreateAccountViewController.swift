@@ -15,6 +15,7 @@ class CreateAccountViewController: UIViewController {
     @IBOutlet weak var passwordTextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .lightBlueColor
     }
     
     override func didReceiveMemoryWarning() {

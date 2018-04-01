@@ -19,13 +19,6 @@ class TaskDetailCollectionViewCell: UICollectionViewCell {
     }
 }
 
-extension UICollectionViewCell {
-    func roundCorner() {
-        layer.cornerRadius = 8
-        clipsToBounds = true
-    }
-}
-
 extension Date {
     func toString() -> String {
         let formatter = DateFormatter()

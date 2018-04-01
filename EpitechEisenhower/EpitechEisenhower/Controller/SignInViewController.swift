@@ -13,11 +13,22 @@ class SignInViewController: UIViewController {
     @IBOutlet weak var passwordTextField: UITextField!
     var authImp: EpitechEisenhowerAuth?
     
+    @IBOutlet weak var loginButton: UIButton!
+    @IBOutlet weak var signInButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
+        setDesign()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    private func setDesign() {
+        view.backgroundColor = .lightBlueColor
+        loginButton.backgroundColor = .orangeColor
+        loginButton.roundCorner()
+        signInButton.backgroundColor = .yellowColor
+        signInButton.roundCorner()
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
