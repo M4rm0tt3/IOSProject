@@ -57,6 +57,8 @@
 		E31D287C206FF94000C2C70F /* GoogleButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E31D285A206FF93F00C2C70F /* GoogleButton.png */; };
 		E31D287D206FF94000C2C70F /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = E31D285C206FF93F00C2C70F /* Contents.json */; };
 		E31D287F20700B3C00C2C70F /* CustomNavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31D287E20700B3C00C2C70F /* CustomNavBarController.swift */; };
+		E31D2886207028AB00C2C70F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31D2885207028AB00C2C70F /* ProfileViewController.swift */; };
+		E31D288820702AE200C2C70F /* pandaroux.png in Resources */ = {isa = PBXBuildFile; fileRef = E31D288720702AE200C2C70F /* pandaroux.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,6 +128,8 @@
 		E31D285A206FF93F00C2C70F /* GoogleButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GoogleButton.png; sourceTree = "<group>"; };
 		E31D285C206FF93F00C2C70F /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		E31D287E20700B3C00C2C70F /* CustomNavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarController.swift; sourceTree = "<group>"; };
+		E31D2885207028AB00C2C70F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		E31D288720702AE200C2C70F /* pandaroux.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pandaroux.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +192,7 @@
 				9F061C94206F88B700F490EB /* CreateAccountViewController.swift */,
 				9F061C96206F929200F490EB /* HomeViewController.swift */,
 				E31D287E20700B3C00C2C70F /* CustomNavBarController.swift */,
+				E31D2885207028AB00C2C70F /* ProfileViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 		E31D2781206FEE4200C2C70F /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				E31D28802070219400C2C70F /* ProfilePicture */,
 				E31D284C206FF93F00C2C70F /* AddShare.imageset */,
 				E31D2851206FF93F00C2C70F /* AddTask.imageset */,
 				E31D285B206FF93F00C2C70F /* AppIcon.appiconset */,
@@ -361,6 +367,14 @@
 			path = AppIcon.appiconset;
 			sourceTree = "<group>";
 		};
+		E31D28802070219400C2C70F /* ProfilePicture */ = {
+			isa = PBXGroup;
+			children = (
+				E31D288720702AE200C2C70F /* pandaroux.png */,
+			);
+			path = ProfilePicture;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -453,6 +467,7 @@
 				9FEEDDB8206444FF00F0DDAE /* LaunchScreen.storyboard in Resources */,
 				E31D287A206FF94000C2C70F /* GoogleButton@2x.png in Resources */,
 				E31D2873206FF94000C2C70F /* AddShare.png in Resources */,
+				E31D288820702AE200C2C70F /* pandaroux.png in Resources */,
 				E31D286D206FF94000C2C70F /* important.png in Resources */,
 				E31D2872206FF94000C2C70F /* AddShare@3x.png in Resources */,
 				9F061C93206C209600F490EB /* GoogleService-Info.plist in Resources */,
@@ -571,6 +586,7 @@
 				9F061C9E206F986500F490EB /* UserEntity.swift in Sources */,
 				9F061C9A206F96B200F490EB /* TaskEntity.swift in Sources */,
 				9FEEDDAE206444FE00F0DDAE /* AppDelegate.swift in Sources */,
+				E31D2886207028AB00C2C70F /* ProfileViewController.swift in Sources */,
 				9F061C9C206F96DA00F490EB /* Entity.swift in Sources */,
 				9F061C8D206BFB7700F490EB /* EpitechEisenhowerAuthProtocol.swift in Sources */,
 				9F061C97206F929200F490EB /* HomeViewController.swift in Sources */,
